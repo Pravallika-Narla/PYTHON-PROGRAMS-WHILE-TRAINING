@@ -1,0 +1,56 @@
+#palindrome
+n=int(input("Enter the number:"))
+while(n!=0):
+    rem=n%10
+    rev=rev*10+rem
+    n=n/10
+print(rev)
+
+#armstrong number
+n=int(input("Enter the number:"))
+temp=n
+sum=0
+while(n!=0):
+   digit = n% 10
+   sum += digit ** len(str(n))
+   n//= 10
+if temp==sum:
+       print("armstrong")
+else:
+    print("not armstrong")
+       
+#calculate the area of triangle,square,rectangle
+len=int(input("Enter the length of triangle:"))
+bre=int(input("Enter the length of triangle:"))
+area_of_triangle=0.5*len*bre
+print("area of triangle is:",area_of_triangle)
+side=int(input("Enter side of square:"))
+area_of_square=side*side
+print("area of square is:",area_of_square)
+len1=int(input("Enter the length of rectangle:"))
+bre1=int(input("Enter the length of rectangle:"))
+area_of_rectangle=len1*bre1
+print("area of rectangle is:",area_of_rectangle)
+
+#swap 3 numbers
+a=int(input("enter the number:"))
+b=int(input("enter the number:"))
+c=int(input("enter the number:"))
+if a>b:
+    a,b=b,a
+if a>c:
+    a,c=c,a
+if b>c:
+    b,c=c,b
+print(a,b,c)    
+
+#fibonacci series:
+
+    
+
+ 
+  
+
+ 
+ 
+    
