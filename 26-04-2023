@@ -3,12 +3,19 @@ class Library:
         pass
     def addBook():
         pass
-    def getBookByAuthorName:
+    def getBookByAuthorName():
         pass
-    def sortBooksInTopologicalOrder:
+    def sortBooksInTopologicalOrder():
         pass
     def getAllSubscribers():
         pass
-    def getAllEarnings:
+    def getAllEarnings():
         pass
-    def get    
+    def getUnavailableBooks():
+        pass
+    class MyLibrary(Library):
+    # it can not have it's own data structure to store book , authors , subscribers , unvailable books
+    def getFaviourtBook():
+        pass
+    def getFaviourtCustomer():
+
